@@ -1,0 +1,18 @@
+.game-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 8px;
+    border: 1px solid #F1F2F3;
+    width: 500px;
+    height: 500px;
+}
+.game-board .game-board-cell {
+    background: #F1F2F3;
+    display: grid;
+    place-items: center;
+    font-size: 48px;
+}
+.game-board .game-board-cell.highlighted-cell {
+    background: #747bff;
+}
